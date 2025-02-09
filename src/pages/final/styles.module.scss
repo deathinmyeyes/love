@@ -1,0 +1,31 @@
+.final {
+  min-height: 100dvh;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__author {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    font-size: 17px;
+    color: #fff;
+  }
+
+  &__block {
+    width: 90%;
+    height: 90%;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+
+    &__text {
+      font-size: 60px;
+      font-weight: 900;
+      letter-spacing: 1.1px;
+      text-align: center;
+    }
+  }
+}
