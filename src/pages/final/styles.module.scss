@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: showLeft 1s ease-in-out forwards;
   justify-content: center;
 
   &__author {
@@ -12,20 +13,34 @@
     right: 0px;
     font-size: 17px;
     color: #fff;
+    border-bottom: 1px solid white;
   }
 
   &__block {
-    width: 90%;
     height: 90%;
     color: #fff;
     padding: 10px;
     border-radius: 10px;
 
     &__text {
-      font-size: 60px;
+      font-size: 50px;
       font-weight: 900;
       letter-spacing: 1.1px;
       text-align: center;
+      width: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: center;
     }
+  }
+}
+
+@keyframes showLeft {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
   }
 }

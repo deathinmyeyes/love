@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 function Second() {
   return (
     <div className={styles.second}>
-      <div className={styles.second__block}>
+      <div className={styles.second__block} data-aos="fade-up">
         <p>
           Сегодня день, когда весь мир говорит о любви, но я думаю, что слова
           "люблю тебя" звучат слишком просто, чтобы описать то, что я на самом

@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 export default function Four() {
   return (
     <div className={styles.therd}>
-      <div className={styles.therd__block}>
+      <div className={styles.therd__block} data-aos="fade-up">
         <p>
           Сегодня, в День всех влюбленных, я хочу сказать, что ты мое самое
           большое счастье. И несмотря на огромное расстояние (вспомнилась опять

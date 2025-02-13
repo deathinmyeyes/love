@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 export default function Therd() {
   return (
     <div className={styles.therd}>
-      <div className={styles.therd__block}>
+      <div className={styles.therd__block} data-aos="fade-up">
         <p>
           Я думаю, что наша встреча—подарок судьбы от колеса фортуны, и я
           благодарен ей за каждый момент, проведенный рядом с тобой. Ты делаешь
